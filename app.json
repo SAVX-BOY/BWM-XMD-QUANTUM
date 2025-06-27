@@ -11,7 +11,7 @@
   "env": {
     "PREFIX": {
       "description": "Choose your prefix for your bot",
-      "value": ".",
+      "value": "✦",
       "required": true
     },
     "AUTO_REJECT_CALL": {
@@ -61,7 +61,7 @@
     },
     "PUBLIC_MODE": {
       "description": "Type yes for public mode or no for private mode",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -76,7 +76,7 @@
     },
     "OWNER_NUMBER": {
       "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "",
+      "value": "255793157892",
       "required": true 
     },
    "STATUS_REACT_EMOJIS": {
@@ -101,7 +101,7 @@
     },
     "SESSION_ID": {
       "description": "Your session ID",
-      "value": "",
+      "value": "BWM-XMD;;;H4sIAAAAAAAAA61Uy46jRhT9l1J2WNNg87TU0vD0Az+wMfgRZVE2BcY8uyhs8MhZzGKUZRaJlEVG2eUDMqt8Qn6jv2A+IaLdnWkpk0lHChKiKIp7zz33nPsGpFlYIBPVoPsG5Dg8QoKaJalzBLpAKX0fYdACHiQQdIHdn+abZW7Ikhokk5ueuZLFbMYWmRnpxthHCzg89lchJ9HBLbi0QF5u43D3hYCsobAVbs9NI4hqouiCwtZ4q8ynCY8tvjCy2dCKqoM4X2S34NJEhCEO00DP9yhBGMYmqi0Y4pfBP2mZmdSUk+sBSxZKn1NrKxkIN3f16jxfVcFS2K/OfS2eGfrL4FuW46fr+TFVzlTBJukotka1uZTsXS0sldSiDcSL/CRwF+sr/CIMUuQNPJSSkNQv5r0YDbQ7wZmVS3GsHQx+zFqH865iTtLp4DB97RRJYb2xN8RxXgZcqgtz2kYZ3CrzeVtx3WpFDXuUXXKydXN05/mQVYxTVLNV8By4hZ+0Ev0X3tf6XrzLB+awWiPKEzy1tDjOFsfuiB/WonLeLTZ0OFoOzSR6Gfxt6Z3F4nxmBvp2xDorUWTXUXWSHTq0pHzg0aoyr7ytiQ/yJ/iQlPhLKNlc222dXF6ZPMGx3rFswnVsT1aLtQJTwuqFdHI2k+hmthzue7ESneYuNRtsg4UwNg4lE+PNxnDP7U7KMvY5i9bKxNFmtw8VRageeKDLXFoAoyAsCIYkzNJmr91mWwB6RxvtMCIP9IKVr5XS/oaHqDeWWFzy/iq4G1CYh7OMrsyt4DiH+Uqc5Q59C1ogx9kOFQXy+mFBMlyPUVHAABWg+/VDp5qiMUoygoahB7qgzXGC1GE4QZTar4tXpz0kBczzVykioAV8nCVjBLoEl6gFHn4QJLUtchKrCjKv0brA6yJDywwviIKsagbdlJhcky7CBBUEJjnoMgLH0B2Rl7hL6//BIasdnenImiFIrMwLsmoIRkcWOh1O5kSeNf4FB3/5pgVSVJGrjhv2O0wL+CEuiJOWeZxB70nkTx/hbpeVKbHrdKc2C4RB99k2IiRMg6KprEwh3u3DI1KbOkDXh3GB/mo4wsh7quVxiKmZ1+hwKZljpaNNQYO9CfQ3brqfYSe+nmrzAs1ITIehWU7iuu3XzX4LpLAJBb66f/vBvX/74f7tb3+8+/bj+x9+v//514/vf3x3fXz/8ZefvmvuhrfHihoAHiIwjAvQBepQmBxMXdEnW4YqBr2erAeyGsjgEwNPznpUbo+aj2M2QxTF2ngoTiQqyNBmVylLStJItkThZqsfA0fe3X4mCOiCCC1dcXWa5gq1VQKb09zIPYsD6kCtj/505Euc7EFBr8p4uKRG9cZH7tQP9Tymq95deWeskwT15uRE6+5QXm6PeZiv5OC2yeahY7hDz5O13VPVtrewYNMJ9At7PsdFUhnhjV+ZQ0wlUTA64VHK8Dt7xBrllLJSPlI3jjToiFZY32wOnVjnfM2bjo1JuaQJHfWV09XzDzMnfpz14aMbw4dXP0QPo/OxTf/W6yvuRpH0pfUsxOMs/od5prjVMVoMkdk/Hkv9rvY138/MfrIaz9zjcSZAI82SZTViDbkPLo018hgSP8MJ6AKYejh7kBLOykbig9TPvpBMlZ2BKl8Lj2FB5E+2+YwTRe56ysJZ3ofFvuHAYtZ7v/FALee5TSB5ciGQm6s3gODyJ62EIxuwCAAA",
       "required": true
     },    
     "STARTING_BOT_MESSAGE": {
@@ -111,17 +111,17 @@
     },
     "PRESENCE": {
       "description": "Presence mode: 1=online, 2=typing, 3=recording",
-      "value": "",
+      "value": "1",
       "required": false
     },
     "ANTIDELETE_SENT_INBOX": {
       "description": "Enable anti-delete to be sent inbox (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
    "ANTIDELETE_RECOVER_CONVENTION": {
       "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },	  
     "GROUPANTILINK": {
